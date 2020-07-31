@@ -14,7 +14,7 @@ def read(*rnames):
 setup(
     name='rst2pdf',
     version='0.98',
-    python_requires='>=3.6',
+    python_requires='>=3.5',
     packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
     package_dir={'': '.'},
     package_data={
@@ -53,6 +53,7 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
