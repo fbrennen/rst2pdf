@@ -17,7 +17,7 @@ cache:
 install:
   - pip install --upgrade setuptools
   - pip install pytest pre-commit
-  - pip install -c requirements.txt -e .[tests,sphinx,svgsupport,aafiguresupport,mathsupport,rawhtmlsupport]
+  - pip install -c requirements.txt -c test_requirements.txt -e .[tests,sphinx,svgsupport,aafiguresupport,mathsupport,rawhtmlsupport]
 env:
   - TEST_CMD="pytest"
 script:
