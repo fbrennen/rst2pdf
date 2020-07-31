@@ -16,6 +16,7 @@ cache:
     - $HOME/.cache/pre-commit
 install:
   - pip install --upgrade setuptools
+  - pip install --upgrade pip
   - pip install pytest pre-commit
   - pip install -c requirements.txt -c test_requirements.txt -e .[tests,sphinx,svgsupport,aafiguresupport,mathsupport,rawhtmlsupport]
 env:
